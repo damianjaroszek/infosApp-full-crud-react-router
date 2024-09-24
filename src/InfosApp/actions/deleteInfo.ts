@@ -1,6 +1,9 @@
 import { SingleInfo, SingleInfoDto } from "../types";
 import { apiCall } from "../utlis/apiCall";
 
+
+
+
 const updateInfoAction = async (request: Request) => {
     const formData = await request.formData();
     const id = formData.get('id')?.toString();
@@ -26,11 +29,9 @@ const deleteInfoAction = async (request: Request) => {
 
 export const infoAction = async ({ request }: { request: Request }) => {
     const { method } = request;
-
     switch (method) {
         case 'PUT': return updateInfoAction(request);
         case 'DELETE': return deleteInfoAction(request);
     }
-
 
 } 
