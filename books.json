@@ -1,0 +1,34 @@
+{
+  "books": [
+    {
+      "title": "Włam się do mózgu2",
+      "description": "książka o technikach uczenia się i zapamiętywania",
+      "year": 2021,
+      "id": "1"
+    },
+    {
+      "id": "2",
+      "year": 2020,
+      "title": "Finansowa Forteca",
+      "description": "zadbaj o budżet domowy ..."
+    },
+    {
+      "id": "9a85",
+      "title": "test",
+      "description": "testowy",
+      "year": 2024
+    },
+    {
+      "id": "63a0",
+      "title": "Twoja stara jest bezdzietna",
+      "description": "O twojej starej",
+      "year": 2024
+    },
+    {
+      "id": "05a1",
+      "title": "Heheszki",
+      "description": "Heheszku",
+      "year": 2024
+    }
+  ]
+}
